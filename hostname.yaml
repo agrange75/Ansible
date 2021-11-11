@@ -1,0 +1,6 @@
+- name: Set System Hostname
+  hosts: localhost
+  tasks:
+  - name: Set hostname
+    ansible.builtin.hostname:
+      name: Antoine
